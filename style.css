@@ -1,0 +1,38 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+}
+
+.dropDownButton{
+
+    padding: 10px 20px 10px 20px;
+    border: none;
+    background-color: lightcoral;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.dropDownButton:hover{
+    opacity: 1;
+}
+
+.dropDownMenu{
+    display: none;
+    font-size: 20px;
+    width: 200px;
+    background-color: lightgray;
+    padding: 10px 0px 10px 0;
+}
+
+.visible{
+    display: block;
+}
+
+.dropDownList{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 10px;
+}
